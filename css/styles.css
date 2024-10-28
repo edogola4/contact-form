@@ -1,0 +1,45 @@
+/* Add your styles here */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.contact {
+    padding: 50px;
+    background: #f4f4f4;
+}
+
+.heading {
+    text-align: center;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.field, .message {
+    margin-bottom: 20px;
+}
+
+.field input, .message textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.button-area {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}

@@ -1,0 +1,21 @@
+{
+    "name": "brandon/contact-form",
+    "description": "A simple PHP project with a contact form.",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourNamespace\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YourNamespace\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
